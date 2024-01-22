@@ -1,3 +1,4 @@
+import 'package:belajar/container_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,18 +16,24 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Color.fromARGB(255, 139, 139, 124),
+          backgroundColor: Color.fromARGB(255, 252, 252, 0),
           title: Text("Belajar Flutter",
-            style: TextStyle(backgroundColor: Colors.black),
+            style: TextStyle(backgroundColor: Colors.blueAccent),
         ),
         ),
-        body: Center(
-          child: Text("Hello Dunia...\nHallo Botak",
-          style: TextStyle(
-            color: Colors.blue, fontSize: 24, fontWeight: FontWeight.bold),
-            ),
-            ),
+        body: BelajarContainer(),
       ),
     );
+  }
+}
+
+class TextWidget extends StatelessWidget {
+  const TextWidget({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Center();
   }
 }
