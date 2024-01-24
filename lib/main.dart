@@ -1,4 +1,6 @@
 import 'package:belajar/container_widget.dart';
+import 'package:belajar/listview/list_builder.dart';
+import 'package:belajar/listview/list_separated.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
             style: TextStyle(backgroundColor: Colors.blueAccent),
         ),
         ),
-        body: BelajarContainer(),
+        body: BelajarListSeparated(),
       ),
     );
   }

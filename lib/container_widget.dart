@@ -11,7 +11,7 @@ class BelajarContainer extends StatelessWidget {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(0),
       decoration: BoxDecoration(
-          color: Color.fromARGB(255, 72, 47, 218), borderRadius: BorderRadius.circular(10)),
+          color: Colors.purpleAccent, borderRadius: BorderRadius.circular(10)),
       child: Center(
         child: Container(
         width: double.infinity,
@@ -19,7 +19,7 @@ class BelajarContainer extends StatelessWidget {
         margin: EdgeInsets.all(30),
         padding: EdgeInsets.all(30),
         decoration: BoxDecoration(
-        color: Color.fromARGB(255, 119, 41, 115), borderRadius: BorderRadius.circular(10)),
+        color: Colors.deepOrangeAccent, borderRadius: BorderRadius.circular(10)),
 
         child: Container(
         width: double.infinity,
@@ -35,7 +35,7 @@ class BelajarContainer extends StatelessWidget {
         margin: EdgeInsets.all(20),
         padding: EdgeInsets.all(20),
         decoration: BoxDecoration(
-        color: Color.fromARGB(255, 228, 18, 18), borderRadius: BorderRadius.circular(10)),
+        color: Colors.cyan, borderRadius: BorderRadius.circular(10)),
         child: Container(
 
           
